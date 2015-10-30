@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiniteStateMachineDemo", "FiniteStateMachineDemo\FiniteStateMachineDemo.csproj", "{CC7EDC53-25D1-45D1-8BE4-7172AD296504}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ActionAgent", "ActionAgent\ActionAgent.fsproj", "{58251642-F5C9-4A68-B299-74E688E78CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC7EDC53-25D1-45D1-8BE4-7172AD296504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7EDC53-25D1-45D1-8BE4-7172AD296504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7EDC53-25D1-45D1-8BE4-7172AD296504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7EDC53-25D1-45D1-8BE4-7172AD296504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58251642-F5C9-4A68-B299-74E688E78CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58251642-F5C9-4A68-B299-74E688E78CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58251642-F5C9-4A68-B299-74E688E78CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58251642-F5C9-4A68-B299-74E688E78CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
