@@ -10,13 +10,15 @@ namespace FiniteStateMachineDemo
     {
         static void Main(string[] args)
         {
-            var codeLock = new CodeLock();
-            codeLock.Post("test");
-            codeLock.Post("key");
-            codeLock.Post("hello world!");
-            codeLock.Post("lock");
-            codeLock.Post("test");
-            Console.ReadLine();
+            using (var codeLock = new CodeLock())
+            {
+                codeLock.Post("test");
+                codeLock.Post("key");
+                codeLock.Post("hello world!");
+                codeLock.Post("lock");
+                codeLock.Post("test");
+                Console.ReadLine();
+            }
         }
     }
 }

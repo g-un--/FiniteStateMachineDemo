@@ -9,7 +9,7 @@ namespace FiniteStateMachineDemo
 {
     public delegate Handle<T> Handle<T>(string message);
 
-    public class CodeLock
+    public class CodeLock : IDisposable
     {
         private Handle<string> state;
         private Agent<string> agent;
@@ -54,6 +54,11 @@ namespace FiniteStateMachineDemo
                     return Locked();
                 }
             });
+        }
+
+        public void Dispose()
+        {
+            ((IDisposable)agent).Dispose();
         }
     }
 }
